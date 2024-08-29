@@ -1,0 +1,146 @@
+:root{
+    --bg: #F3E5D8;
+    --primario: #87586D;
+    --primarioBg: #FFF7FC;
+    --secundario: #8D554B;
+    --blanco: #FFF;
+    --negro: #000;
+    --negroClaro: #555555;
+    --borderBottom: #EFEFEF;
+
+    --fuentePrincipal: "Young Serif", sans-serif;
+    --fuenteSecundaria: "Outfit", sans-serif;
+}
+
+/* GLOBALES */
+
+html{
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+
+*,*::before, *::after{
+    box-sizing: inherit;
+}
+
+body{
+    background-color: var(--bg);
+    font-size: 1.6rem;
+}
+
+p{
+    font-size: 1.7rem;
+    font-family: var(--fuenteSecundaria);
+    color: var(--negroClaro);
+}
+
+a{
+    text-decoration: none;
+}
+
+img{
+    width: 100%;
+    border-radius: 1rem;
+}
+
+.contenedor{
+    max-width: 80rem;
+    margin: 0 auto;
+    background-color: var(--blanco);
+    padding: 3rem;
+    border-radius: 1rem;
+}
+
+h1, h2, h3{
+    color: var(--negro);
+    font-family: var(--fuentePrincipal);
+}
+
+h1{
+    font-size: 4rem;
+}
+
+h2{
+    font-size: 3.2rem;
+}
+
+h3{
+    font-size: 2.4rem;
+}
+
+.texto-bold{
+    font-weight: bold;
+}
+
+
+/* FRONT END MENTOR */
+.attribution { 
+    font-size: 11px; text-align: center; 
+}
+
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
+
+/* CONTENEDOR HIJOS */
+
+
+.preparation{
+    background-color: var(--primarioBg);
+}
+
+.preparation__titulo{
+    color: var(--primario);
+    font-family: var(--fuenteSecundaria);
+}
+
+.unordered-list__prep{
+    line-height: 2;
+    color: var(--negroClaro);
+    font-size: 1.6rem;
+    font-family: var(--fuenteSecundaria);
+}
+
+.contenido-principal{
+    color: var(--negroClaro);
+    line-height: 2.2;
+    font-family: var(--fuenteSecundaria);
+    border-bottom: 1px solid var(--borderBottom);
+    padding-bottom: 1rem;
+}
+
+.ingredients__titulo{
+    color: var(--secundario);
+}
+
+
+.instructions__titulo{
+    color: var(--secundario);
+}
+
+.contenido-principal:last-of-type{
+    border: none;
+}
+
+.nutrition__titulo{
+    color: var(--secundario);
+}
+
+.nutrition__parrafo{
+    color: var(--negroClaro);
+    font-family: var(--fuenteSecundaria);
+}
+
+.stats{
+    display: flex;
+    border-bottom: 1px solid var(--borderBottom);
+}
+
+
+
+.p2{
+    margin-left: auto;
+    color: var(--secundario);
+    font-weight: bold;
+    justify-content: center;
+}
